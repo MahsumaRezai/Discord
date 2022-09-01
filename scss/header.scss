@@ -1,92 +1,100 @@
 $color: gainsboro;
+$color1: blue;
+$font: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
 * {
   margin: 0;
   padding: 0;
   font-family: Whitney,Helvetica;
+  box-sizing: border-box
 }
 
-.banner {
-  background: blue;
+/* header */
+header {
   width: 100%;
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-}
-
-.navbar {
-  width: auto;
-  height: 4.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background: blue;
-}
-
-.logo {
-  width: 180px;
-  cursor: pointer;
-}
-
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 30px;
+  background: #404eed;
   position: relative;
-}
+  min-height: 626px;
+  overflow: hidden;
+  margin-bottom: 0px;
+   
 
-.navbar ul li a {
+}
+.header{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.logo-contaniner, .nav-links, .card {
+   display: flex;
+   margin-top: 50px;
+}
+.logo-contaniner {
+  flex:1
+
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+  
+
+}
+.nav-link {
   text-decoration: none;
   color: white;
-  text-transform: none;
-  font-size: 20px;
+  
+
+  
+}
+nav ul li a{
+  font-family: sans-serif;
   font-weight: bold;
 }
+.nav{
+  list-style: none;
 
-.navbar ul li::after {
-  content: '';
-  height: 3px;
-  width: 0%;
-  background: white;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+}
+.nav-link1 {
+  text-decoration: none;
 }
 
-.navbar ul li:hover::after {
-  width: 100%;
-}
+nav{
+ flex: 2;
 
-.content {
-  width: 100%;
-  position: absolute;
-  top: 20%;
-  -webkit-transform: translate(0%);
-          transform: translate(0%);
-  text-align: center;
-  color: #fff;
 }
+.into-head {
+  font-weight: 1000;
+    font-size: 44px;
+    font-size: clamp(24px,5vw,44px);
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    margin-bottom: 50px;
+    margin-top: -50px
 
-.content h1 {
-  font-size: 50px;
-  margin-top: 50px;
-  font-weight: 800px;
 }
+.card{
+  flex:1;
+  justify-content: flex-end;
 
-.content p {
-  margin: 20px auto;
-  font-weight: 100;
-  line-height: 25px;
+
 }
+ .bu{
+    background-color: white;
+    border: 1px solid white;
+     border-radius: 15px;
+     font-size: 15px;
+     .bu a {
+       text-align: center;
+       top :0
+     }
 
-button {
+
+    
+
+
+ }
+ /* button*/
+ .button {
   width: 300px;
   padding: 15px 0;
   text-align: center;
@@ -100,7 +108,23 @@ button {
   overflow: hidden;
   background-color: white;
 }
-
+.button-btn {
+  width: 300px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+.svg {
+   order: 1;
+}
 btn {
   width: 300px;
   padding: 15px 0;
@@ -137,6 +161,41 @@ span {
 
 button:hover span {
   width: 100%;
+}
+/* img in to header*/
+.section{
+   display: flex;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 0%;
+    align-self: flex-start;
+     
+
+
+}
+
+.cover-text {
+  margin-left: -230px;
+
+}
+.cover2 {
+  margin-right: -210px;
+
+
+
+}
+.cover-text ,.prseation ,.cover2{
+  display: flex;
+   z-index: 1;
+    color: white;
+    text-align: center;
+
+}
+.coloud {
+  top:0px;
+  right: 0px;
+  position: absolute;
+  bottom: 0px
 }
 
 /*imag 1*/
