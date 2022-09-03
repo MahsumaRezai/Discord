@@ -210,4 +210,20 @@ nav {
     font-size: 20px;
   }
 }
+
+/*section three*/
+.section-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-imag, .section-img2, .section-img3, .section-img4, .section-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=dowloand.css.map */
