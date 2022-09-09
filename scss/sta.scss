@@ -1,0 +1,232 @@
+$color: gainsboro;
+$color1: black;
+$fontclo: white;
+$font:Impact, serif ;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Whitney,Helvetica;
+  box-sizing: border-box
+}
+
+/* header */
+header {
+  width: 100%;
+  background: #5865f2;
+  position: relative;
+  min-height: 800px;
+  overflow: hidden;
+
+}
+.header{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.logo-contaniner, .nav-links, .card {
+   display: flex;
+   margin-top: 50px;
+}
+.logo-contaniner {
+  flex:1
+
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+  
+
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  
+
+  
+}
+nav ul li a{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.nav{
+  list-style: none;
+
+}
+.nav-link1 {
+  text-decoration: none;
+}
+
+nav{
+ flex: 2;
+
+}
+.into-head {
+  font-weight: 1000;
+    font-size: 44px;
+    font-size: clamp(24px,5vw,44px);
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    margin-bottom: 50px;
+    margin-top: -50px
+
+}
+.card{
+    flex:1;
+    justify-content: flex-end;
+  
+}  
+.bu{
+    background-color: white;
+    border: 1px solid white;
+     border-radius: 15px;
+     font-size: 15px;
+     .bu a {
+       text-align: center;
+       top :0
+     }
+ }
+/*  drop sectio one*/
+.navbar {
+    overflow: hidden;
+    background-color: #5865f2;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration-line: underline;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration-color: #ddd;
+    text-decoration: none;
+    text-decoration-line: unset;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+
+    
+  }
+  .section-drop {
+      flex-direction: row;
+      display: flex;
+      margin-left: 180px;
+      margin-top: 100px
+  }
+  .center {
+      margin-top: 10px;
+      font-size: 20px
+  }
+  /* text h1 */
+  .drop-text h1 {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 60px;
+      color: white;
+      text-transform: uppercase;
+      margin-left: 190px;
+       margin-top: 50px;
+       gap: 20px;
+       font-family:  Impact, serif;
+       width: 100%;
+       letter-spacing: 3px;
+
+
+  }
+  .drop-para {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: -100px
+  }
+  .drop-p p{
+      color: white;
+      line-height: 30px;
+      font-size: 17px;
+      margin-top: 56px;
+      
+  }
+  /* section para*/
+  .main-para {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+  }
+  .main-para p {
+    color: #4f5660;
+    font-size: 17px;
+    line-height: 40px;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+  }
+   main , .main-para ,.main-para p ,.main-para h2 {
+     background-color: #f6f6f6
+   }
+   .main-para h2 {
+     color: black;
+     font-size: 48px;
+     letter-spacing: 4px;
+     font-family:  Impact, serif;
+     margin-bottom: 20px
+     
+
+   }
+   /* section para2 */
+   .section-para2 {
+     background-color: #f6f6f6;
+     display: flex; justify-content: space-between;
+     margin-right: 100px;
+      margin-left: 100px;
+     
+   }
+   .section-para2 h3 , .section-para2 p {
+     display: flex;
+   }
