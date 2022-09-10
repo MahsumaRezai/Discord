@@ -223,10 +223,19 @@ nav{
    .section-para2 {
      background-color: #f6f6f6;
      display: flex; justify-content: space-between;
-     margin-right: 100px;
-      margin-left: 100px;
+    
      
    }
    .section-para2 h3 , .section-para2 p {
      display: flex;
+   }
+   .section-para2 p  {
+    color: #4f5660;
+     font-size: 20px;
+
+   }
+   .section-para2 h3 {
+      font-size: 30px;
+      margin-bottom: 8px;
+      font-family:  serif;
    }

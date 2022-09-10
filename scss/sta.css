@@ -271,13 +271,22 @@ main, .main-para, .main-para p, .main-para h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 100px;
-  margin-left: 100px;
 }
 
 .section-para2 h3, .section-para2 p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.section-para2 p {
+  color: #4f5660;
+  font-size: 20px;
+}
+
+.section-para2 h3 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  font-family: serif;
 }
 /*# sourceMappingURL=sta.css.map */
