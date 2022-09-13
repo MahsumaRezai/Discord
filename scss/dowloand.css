@@ -1,3 +1,8 @@
+:root {
+  --num-grid-columns: 12;
+  --section-spacing: 120px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -211,19 +216,5 @@ nav {
   }
 }
 
-/*section three*/
-.section-three {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.section-imag, .section-img2, .section-img3, .section-img4, .section-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+/* section cart */
 /*# sourceMappingURL=dowloand.css.map */

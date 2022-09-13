@@ -1,3 +1,7 @@
+:root {
+    --num-grid-columns: 12;
+    --section-spacing: 120px;
+}
 $color: gainsboro;
 $color1: black;
 $fontclo: white;
@@ -185,12 +189,11 @@ nav{
     }
 
 }
+/* section cart */
 
-/*section three*/
-.section-three {
-    display:flex;
-    justify-content: center;
-}
-.section-imag, .section-img2, .section-img3,.section-img4, .section-button {
-    display: flex
-}
+
+
+
+
+
+
