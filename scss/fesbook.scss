@@ -824,118 +824,155 @@ text-decoration-line: underline
 }
 
 /*  body section cart */
-.feebback {
-	justify-content: center;
+.cart-section {
+	 width: 80%;
+		margin: 0 auto;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		 display: flex;
+	  
+}
+.list-one  {
+	 border: 1px solid  #5865F2;
+		width: 400px;
+		 height: 110px; 
+		 border-radius:  3px ;
+		 font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+		 font-size: 15px
+
+}
+.blocks-item span {
 	margin-top: 20px
 }
-.topics-item .meta-group {
-	justify-content: center;
-	 margin-top: 20px
+.meta-data {
+	list-style: none
 }
-.cart {
-	display: flex; 
-	justify-content: flex-start;
-	list-style: none;
-	padding: 0%;
-}
+.list-two {
+	border: 1px solid  #5865F2;
+	  width: 400px;
+		height: 110px;
+		border-radius:  3px ;
+		font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+		 font-size: 15px
 
-
-@media (min-width: 768px) {
-	.cart {
-	  margin: 0 -15px;
-	}
-  }
-  @media (min-width: 768px) {
-	.cart {
-	  margin: 0 15px 30px;
-	}
-  }
-  .cart {
-	   border:  1px solid #5865F2;
-		border-radius:  3px;
-		box-sizing: border-box;
-		display: flex;
-		 flex:  1 0 340px;
-		 flex-direction: column;
-		 justify-content: center;
-		 margin:  0 0 30px ;
-		 text-align: center;
-		 max-width: 100%;
-
-  }
-.cart:hover , .cart:focus ,.cart:active {
-	box-shadow: 0 9px 30px rgba(114, 137, 218, .2);
-	top:-5px;
-	position: relative;
-	border-color: blue;
 
 }
-.cart:hover *, .cart-item:focus *, .cart-item:active * {
-	text-decoration: none;
-  }
-  .cart-internal {
-	  background-color: transparent;
-	  border: 1px solid blue;
-  }
-  .item-link {
-	color: #5865F2;
-	padding: 20px 30px;
-  }
-  .item-link:hover, .item-link:active {
-	text-decoration: none;
-  }
-  .item-link:focus {
-	outline: 0;
-	box-shadow: 0 0 0 3px rgba(88, 101, 242, 1);
-	text-decoration: none;
-  }
-  .item-title {
-	  margin-bottom: 0;
-  }
-  .item-description {
-	  font-weight: 300; margin: 0%
-
-  }
-  .meta-group {
-	  display: block;
-  }
-  .meta-group-opposite {
-	float: right;
-  }
-  [dir="rtl"] .meta-group-opposite {
-	float: left;
-  }
-  
-  .meta-group * {
-	display: inline;
-  }
-  .meta-data {
+.meta-data {
 	color: #666;
-	font-size: 13px;
-	font-weight: 300;
-  }
+  font-size: 13px;
+  font-weight: 300;
+}.meta-data:not(:last-child)::after {
+  content: "\00B7";
+  margin: 0 5px;
+}
+.meta-group {
+  display: block;
+}
+.meta-group * {
+  display: inline;
+}
+
+ .list-three {
+	height: 110px;
+	border: 1px solid  #5865F2;
+	width: 400px;
+	border-radius:  3px ;
+	font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+	font-size: 15px
+
+
+ }
+.blocks-item-link {
+	color: #5865F2;
+    padding: 20px 30px;
+}
+
+.blocks-item-link:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(88, 101, 242, 1);
+  text-decoration: none;
+}
+.blocks-item-title {
+  margin-bottom: 0;
   
-  .meta-data:not(:last-child)::after {
-	content: "\00B7";
-	margin: 0 5px;
-  }
+}
+
+.blocks-item-description {
+  font-weight: 300;
+  margin: 0;
+}
+
+.blocks-item-description:not(:empty) {
+  margin-top: 10px;
+}
+.blocks-item {
+	padding-top: 30px
+}
+.cart-section {
+	margin-top: 50px
+}
+.list-four {
+	height: 110px;
+	border: 1px solid  #5865F2;
+	width: 610px;
+	border-radius:  3px ;
+	font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+	font-size: 15px;
 
 
+}
+.list-five {
+	height: 110px;
+	border: 1px solid  #5865F2;
+	width: 610px;
+	border-radius:  3px ;
+	font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+	font-size: 15px
+
+}
+
+.meta-group {
+	margin-top: 10px
+}
+
+.list-one:hover, .list-one:focus, .list-one:active {
+	box-shadow: 0 9px 30px rgba(114, 137, 218, .2);
+position: relative;
+top: -5px;
+border-color: blue;
+
+}
+
+.list-two:hover, .list-two:focus, .list-three:active {
+	box-shadow: 0 9px 30px rgba(114, 137, 218, .2);
+position: relative;
+top: -5px;
+border-color: blue;
+
+}
+
+.list-three:hover, .list-three:focus, .list-three:active {
+	box-shadow: 0 9px 30px rgba(114, 137, 218, .2);
+position: relative;
+top: -5px;
+border-color: blue;
+
+}
 
 
+.list-four:hover, .list-four:focus, .list-four:active {
+	box-shadow: 0 9px 30px rgba(114, 137, 218, .2);
+position: relative;
+top: -5px;
+border-color: blue;
 
+}
 
+.list-five:hover, .list-five:focus, .list-five:active {
+	box-shadow: 0 9px 30px rgba(114, 137, 218, .2);
+position: relative;
+top: -5px;
+border-color: blue;
 
-
-
-
-
-
-
-
-
-
-
-
-
-// end body section cart 
+}
