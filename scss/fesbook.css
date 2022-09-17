@@ -867,5 +867,133 @@ hr {
   text-decoration: none;
 }
 
-/* button */
+/*  body section cart */
+.feebback {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.topics-item .meta-group {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style: none;
+  padding: 0%;
+}
+
+@media (min-width: 768px) {
+  .cart {
+    margin: 0 -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cart {
+    margin: 0 15px 30px;
+  }
+}
+
+.cart {
+  border: 1px solid #5865F2;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 340px;
+          flex: 1 0 340px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 30px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.cart:hover, .cart:focus, .cart:active {
+  -webkit-box-shadow: 0 9px 30px rgba(114, 137, 218, 0.2);
+          box-shadow: 0 9px 30px rgba(114, 137, 218, 0.2);
+  top: -5px;
+  position: relative;
+  border-color: blue;
+}
+
+.cart:hover *, .cart-item:focus *, .cart-item:active * {
+  text-decoration: none;
+}
+
+.cart-internal {
+  background-color: transparent;
+  border: 1px solid blue;
+}
+
+.item-link {
+  color: #5865F2;
+  padding: 20px 30px;
+}
+
+.item-link:hover, .item-link:active {
+  text-decoration: none;
+}
+
+.item-link:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 3px #5865f2;
+          box-shadow: 0 0 0 3px #5865f2;
+  text-decoration: none;
+}
+
+.item-title {
+  margin-bottom: 0;
+}
+
+.item-description {
+  font-weight: 300;
+  margin: 0%;
+}
+
+.meta-group {
+  display: block;
+}
+
+.meta-group-opposite {
+  float: right;
+}
+
+[dir="rtl"] .meta-group-opposite {
+  float: left;
+}
+
+.meta-group * {
+  display: inline;
+}
+
+.meta-data {
+  color: #666;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.meta-data:not(:last-child)::after {
+  content: "\00B7";
+  margin: 0 5px;
+}
 /*# sourceMappingURL=fesbook.css.map */
