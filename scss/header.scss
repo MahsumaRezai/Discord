@@ -193,11 +193,75 @@ button:hover span {
 }
 
 
+.button3 {
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #5865f2;;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: #5865f2;
+    height: 60px;
+  }
+  .end-button {
+      width: 80%;
+      margin: 0 auto;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+       margin-top: -200px
+      
+  }
+  .h2-text {
+      font-size: 32px; 
+      font-weight: 600
+  }
+ .button3 :hover {
+     box-shadow: 0 1px 3px  blue, 0 1px 2px  blue;
+     box-shadow: 0 14px 28px blue, 0 10px 10px blue;
+
+ }
+// footer
 
 
+ /* footer */
+ 
 
+.footer {
+   background-color: black;
+    height: 500px;
+    color: white;
+    
 
+     
+}
+.footer-con{
+  width: 80%;
+     margin: 0 auto;
+     display: flex;
 
-
-
-/*# sourceMappingURL=header.css.map */
+}
+.flag {
+  
+  margin-right: 8px;
+  display: inline;
+  color: #fff
+}
+.flagimg  {
+  width: 30px;
+  height: 16px;
+}
+.h4-text {
+  font-size:32px;
+  font-weight: 800;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    color: #5865f2;
+  
+}

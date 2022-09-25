@@ -1,3 +1,72 @@
+/*imag 2*/
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 150px;
+  margin-top: 150px;
+  background: gainsboro;
+  text-align: justify;
+  background-position: 100%;
+}
+
+.column1 {
+  -webkit-box-flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 100%;
+  padding: -100px;
+}
+
+.column1 img {
+  vertical-align: middle;
+}
+
+.img {
+  margin-left: 70px;
+}
+
+.column1 h1 p {
+  margin-top: 8px;
+  vertical-align: middle;
+  margin-left: -100px;
+  padding-left: -200px;
+}
+
+.column1 h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 30px;
+}
+
+.img2 {
+  width: 100%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .img2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .row1 {
+    margin-top: 5vh;
+    text-align: center;
+  }
+}
+
 /* image 3*/
 .row3 {
   display: -webkit-box;
@@ -94,4 +163,4 @@
   margin-bottom: 20px;
   font-weight: bold;
 }
-/*# sourceMappingURL=indeximg3.css.map */
+/*# sourceMappingURL=style6.css.map */
