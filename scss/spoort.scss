@@ -10,6 +10,12 @@ main {
    width: 100%;
    background-repeat: no-repeat;
 }
+@media all and (max-width: 200%){
+	main {
+		background-image: transparent;
+
+	}
+}
 .logo svg {
     margin-top: 20px;
     margin-left: -150px
@@ -101,7 +107,7 @@ nav#navbar ul.menu li:last-child{
 }
 nav#navbar ul.menu li a{
 	color: blue;
-	text-decoration: none;
+	text-decoration: non;
     font-size: 14px;
     font-family: Whitney,'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif
 }
