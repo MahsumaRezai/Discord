@@ -1,11 +1,15 @@
-:root {
-    --num-grid-columns: 12;
-    --section-spacing: 120px;
-}
 $color: gainsboro;
 $color1: black;
 $fontclo: white;
 $font: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+$font1:fantasy;
+
+:root {
+    --num-grid-columns: 12;
+    --section-spacing: 120px;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -81,6 +85,10 @@ nav{
     justify-content: flex-end;
   
 }  
+.card {
+  color: #23272a;
+
+}
 .bu{
     background-color: white;
     border: 1px solid white;
@@ -90,10 +98,14 @@ nav{
        text-align: center;
        top :0
      }
- }
+
+    }
 /* end sectio one*/
-
-/* start section tow */
-
+// secion cart
 
 
+
+
+
+    
+  

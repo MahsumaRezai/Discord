@@ -92,6 +92,10 @@ nav {
           justify-content: flex-end;
 }
 
+.card {
+  color: #23272a;
+}
+
 .bu {
   background-color: white;
   border: 1px solid white;
@@ -105,5 +109,4 @@ nav {
 }
 
 /* end sectio one*/
-/* start section tow */
 /*# sourceMappingURL=dowloand.css.map */
